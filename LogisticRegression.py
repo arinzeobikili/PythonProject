@@ -2,9 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 
-
-from LinearRegression import model
-
 # Binary output to determine probability with overlap of values
 x1 = np.array([0, 0.6, 1.1, 1.5, 1.8, 2.5, 3, 3.1, 3.9, 4 ,4.9, 5, 5.1])
 y1 = np.array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
