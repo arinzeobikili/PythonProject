@@ -20,7 +20,7 @@ y = np.array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
 #Plot
 plt.plot(x1, y1, 'ro', color='blue')
 plt.plot(x2, y2, 'ro', color='red')
-plt.show()
+#plt.show()
 
 
 #Feed into LogisticRegression Model
@@ -40,9 +40,9 @@ plt.axis([-2, 10, -0.5, 2])
 plt.show()
 
 #Prediction
-pred = model.predict([[3.5]])
+pred = model.predict([[6.1]])
 print("Prediction: ", pred)
 
 #Prediction probability
-predProbability = model.predict_proba([[3.5]])
+predProbability = model.predict_proba([[6.1]])
 print("Prediction Probability: ", predProbability)
