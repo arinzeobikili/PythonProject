@@ -1,3 +1,7 @@
+#This script walks through a logistic regression example
+#  using array pairs with binary output 0 or 1
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression

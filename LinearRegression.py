@@ -1,3 +1,10 @@
+#This script walks through a linear regression example
+#  using a house_prices.csv file, and one feature (size)
+#  and target price
+
+
+
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

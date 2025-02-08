@@ -1,3 +1,9 @@
+#This script walks through a logistic regression example
+#  using a credit_data.csv file, and 3 features (income,
+#  age, and loan to determine the default (binary 0 or 1)
+
+
+
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split

@@ -1,3 +1,7 @@
+#This script walks through a kNN k nearest neighbor example
+#  used to classify features based on nearest, similar
+#  examples
+
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 from matplotlib import pyplot as plt

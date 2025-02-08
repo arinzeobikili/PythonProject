@@ -1,3 +1,10 @@
+#This script walks through a logistic regression example
+#  using a credit_data.csv file, and 3 features (income,
+#  age, and loan to determine the default (binary 0 or 1)
+#  however, using cross validation to improve the mean
+#  predicted score.
+
+
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LogisticRegression
@@ -13,7 +20,7 @@ X = np.array(features).reshape(-1, 3) #3 columns, and -1 denotes python will fig
 Y = np.array(target)
 
 model = LogisticRegression()
-predicted = cross_validate(model, X, Y, cv=5)
+predicted = cross_validate(model, X, Y, cv=5) # Split data set into 5 folds.
 
 print(np.mean(predicted['test_score']))
 

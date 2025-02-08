@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80b4d46d-28e3-4b7b-be77-5f0ac52542af" name="Changes" comment="Set up">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinearRegression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogisticRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/LogisticRegression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogisticRegressionCredit.py" beforeDir="false" afterPath="$PROJECT_DIR$/LogisticRegressionCredit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogisticRegressionCreditCrossValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/LogisticRegressionCreditCrossValidation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/kNN.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
