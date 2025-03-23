@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80b4d46d-28e3-4b7b-be77-5f0ac52542af" name="Changes" comment="Set up">
-      <change afterPath="$PROJECT_DIR$/SVMSimple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecisionTrees/DecisionTreeCancer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecisionTrees/DecisionTreeIris.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecisionTrees/DecisionTreeIrisTuning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVMDigitRecognition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVMIris.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVMIrisGridSearch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,12 +53,18 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.App.executor": "Run",
+    "Python.DecisionTreeCancer.executor": "Run",
+    "Python.DecisionTreeIris.executor": "Run",
+    "Python.DecisionTreeIrisTuning.executor": "Run",
     "Python.LinearRegression.executor": "Run",
     "Python.LogisticRegression.executor": "Run",
     "Python.LogisticRegressionCredit.executor": "Run",
     "Python.LogisticRegressionCreditCrossValidation.executor": "Run",
     "Python.NaiveBayesCreditScore.executor": "Run",
     "Python.NaiveBayesText.executor": "Run",
+    "Python.SVMDigitRecognition.executor": "Run",
+    "Python.SVMIris.executor": "Run",
+    "Python.SVMIrisGridSearch.executor": "Run",
     "Python.SVMSimple.executor": "Run",
     "Python.TfIDVectorizer.executor": "Run",
     "Python.kNN.executor": "Run",
@@ -72,8 +83,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SVMSimple">
-    <configuration name="NaiveBayesCreditScore" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.DecisionTreeCancer">
+    <configuration name="DecisionTreeCancer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DecisionTrees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NaiveBayesCreditScore.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionTrees/DecisionTreeCancer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NaiveBayesText" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="DecisionTreeIris" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,11 +115,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DecisionTrees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NaiveBayesText.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionTrees/DecisionTreeIris.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SVMSimple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="DecisionTreeIrisTuning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,11 +137,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DecisionTrees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVMSimple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionTrees/DecisionTreeIrisTuning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TfIDVectorizer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SVMDigitRecognition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,7 +163,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TfIDVectorizer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVMDigitRecognition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kNNCreditScore" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SVMIrisGridSearch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,7 +185,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kNNCreditScore.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVMIrisGridSearch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SVMSimple" />
-        <item itemvalue="Python.NaiveBayesText" />
-        <item itemvalue="Python.TfIDVectorizer" />
-        <item itemvalue="Python.NaiveBayesCreditScore" />
-        <item itemvalue="Python.kNNCreditScore" />
+        <item itemvalue="Python.DecisionTreeCancer" />
+        <item itemvalue="Python.DecisionTreeIrisTuning" />
+        <item itemvalue="Python.DecisionTreeIris" />
+        <item itemvalue="Python.SVMDigitRecognition" />
+        <item itemvalue="Python.SVMIrisGridSearch" />
       </list>
     </recent_temporary>
   </component>
