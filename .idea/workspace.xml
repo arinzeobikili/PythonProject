@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80b4d46d-28e3-4b7b-be77-5f0ac52542af" name="Changes" comment="Set up">
-      <change afterPath="$PROJECT_DIR$/DecisionTrees/DecisionTreeCancer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DecisionTrees/DecisionTreeIris.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DecisionTrees/DecisionTreeIrisTuning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVMDigitRecognition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVMIris.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVMIrisGridSearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecisionTrees/RandomForestCreditData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecisionTrees/RandomForestDigits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecisionTrees/RandomForestIris.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +59,9 @@
     "Python.LogisticRegressionCreditCrossValidation.executor": "Run",
     "Python.NaiveBayesCreditScore.executor": "Run",
     "Python.NaiveBayesText.executor": "Run",
+    "Python.RandomForestCreditData.executor": "Run",
+    "Python.RandomForestDigits.executor": "Run",
+    "Python.RandomForestIris.executor": "Run",
     "Python.SVMDigitRecognition.executor": "Run",
     "Python.SVMIris.executor": "Run",
     "Python.SVMIrisGridSearch.executor": "Run",
@@ -82,8 +82,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DecisionTrees" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.DecisionTreeCancer">
+  <component name="RunManager" selected="Python.RandomForestDigits">
     <configuration name="DecisionTreeCancer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -98,28 +101,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionTrees/DecisionTreeCancer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DecisionTreeIris" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DecisionTrees" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionTrees/DecisionTreeIris.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SVMDigitRecognition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomForestCreditData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DecisionTrees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVMDigitRecognition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionTrees/RandomForestCreditData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +153,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SVMIrisGridSearch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomForestDigits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DecisionTrees" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionTrees/RandomForestDigits.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RandomForestIris" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,7 +188,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVMIrisGridSearch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionTrees/RandomForestIris.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RandomForestDigits" />
+        <item itemvalue="Python.RandomForestCreditData" />
+        <item itemvalue="Python.RandomForestIris" />
         <item itemvalue="Python.DecisionTreeCancer" />
         <item itemvalue="Python.DecisionTreeIrisTuning" />
-        <item itemvalue="Python.DecisionTreeIris" />
-        <item itemvalue="Python.SVMDigitRecognition" />
-        <item itemvalue="Python.SVMIrisGridSearch" />
       </list>
     </recent_temporary>
   </component>
