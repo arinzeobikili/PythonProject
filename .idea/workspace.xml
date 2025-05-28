@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80b4d46d-28e3-4b7b-be77-5f0ac52542af" name="Changes" comment="Added comments">
-      <change afterPath="$PROJECT_DIR$/computer_vision/NeuralNetworkCreditScore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/computer_vision/DeepNeuralNet1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
     "Python.DecisionTreeCancer.executor": "Run",
     "Python.DecisionTreeIris.executor": "Run",
     "Python.DecisionTreeIrisTuning.executor": "Run",
+    "Python.DeepNeuralNet1.executor": "Run",
     "Python.FaceRecognition.executor": "Run",
     "Python.HierarchicalClusteringExample.executor": "Run",
     "Python.KMeansPoints.executor": "Run",
@@ -93,7 +94,7 @@
       <recent name="$PROJECT_DIR$/DecisionTrees" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.NeuralNetworkCreditScore">
+  <component name="RunManager" selected="Python.DeepNeuralNet1">
     <configuration name="App" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -116,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DBScanExample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="DeepNeuralNet1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/computer_vision" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DBScanExample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/computer_vision/DeepNeuralNet1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DeepNeuralNet1" />
         <item itemvalue="Python.NeuralNetworkCreditScore" />
         <item itemvalue="Python.App" />
         <item itemvalue="Python.FaceRecognition" />
         <item itemvalue="Python.HierarchicalClusteringExample" />
-        <item itemvalue="Python.DBScanExample" />
       </list>
     </recent_temporary>
   </component>
