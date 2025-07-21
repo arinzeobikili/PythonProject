@@ -15,6 +15,8 @@ targets = iris_data.target
 # Reshaping the target (labels) to a 2D array to prepare it for one-hot encoding.
 y = iris_data.target.reshape(-1, 1)
 
+
+
 # One-hot encoding the target labels to represent them as binary arrays.
 # This is required for the output layer of the neural network to correctly interpret the data.
 encoder = OneHotEncoder(sparse_output=False)
