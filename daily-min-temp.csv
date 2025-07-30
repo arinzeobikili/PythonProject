@@ -1,4 +1,4 @@
-"Date","Daily minimum temperatures in Melbourne, Australia, 1981-1990"
+"Date", "Temp"
 "1981-01-01",20.7
 "1981-01-02",17.9
 "1981-01-03",18.8
@@ -3649,6 +3649,4 @@
 "1990-12-29",13.5
 "1990-12-30",15.7
 "1990-12-31",13.0
-
-Daily minimum temperatures in Melbourne, Australia, 1981-1990
 
